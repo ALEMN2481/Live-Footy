@@ -1,0 +1,6 @@
+.IMGLOG{
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    gap: 0.5rem;
+}
