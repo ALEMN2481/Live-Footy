@@ -1,18 +1,19 @@
-.Introdu{
-    background-color: #212e3b;
+.Cuerpo{
+	background-color: #233444;
+}
+.slider-frame {
+	width: 100%;
+    height:auto;
+	margin:10px auto 0;
+	overflow: hidden;
     
 }
-
-
-
-.slider-frame {
-	width: 90%;
-    height: auto;
-	margin:50px auto 0;
-	overflow: hidden;
-    opacity: 0,0,1;
+.Logo{
+	display: flex;
+	height: 70px;
+	width: 70px;
+	margin: 5px;
 }
-
 .slider-frame ul {
 	display: flex;
 	padding: 0;
