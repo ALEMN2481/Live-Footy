@@ -44,3 +44,25 @@
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
+.slider-frame{
+	background-color: #2c4257;
+	box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+	
+}
+.Canales{
+	display: flex;
+	width: 15rem;
+	height: 10rem;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+    translate: 2.5rem;
+	margin: 1rem;
+	
+}
+.Liga{
+	transition: .5s;
+}
+.Liga:hover{
+	transform: scale(1.2);
+	box-shadow: 5rem black;
+}
