@@ -61,8 +61,38 @@
 }
 .Liga{
 	transition: .5s;
+	background: local;
 }
-.Liga:hover{
+.Liga:hover {
 	transform: scale(1.2);
-	box-shadow: 5rem black;
+	
+}
+
+.Liga:active{
+	transform: scale(0.9);
+
+}
+
+.Calendario{
+	align-items: center;
+	text-align: center;
+}
+.CaleDeport{
+
+	display: flex;
+	padding: 1rem;
+	background-color: #2c4257;
+	box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
+	border-radius: 1rem;
+	width: 25rem;
+	height: 28rem;
+	flex-direction: column;
+	margin: auto;
+	
+
+}
+
+th{
+	padding: 1rem;
+	background-color: #37536d;
 }
