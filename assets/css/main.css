@@ -92,7 +92,55 @@
 
 }
 
-th{
-	padding: 1rem;
-	background-color: #37536d;
+.CabezaT{
+	text-align: center;
+	color: white;
+	background-color: #3d5c79b2;
+	border-radius: 1rem;
+	padding: .3rem;
+	margin: 1rem;
 }
+th{
+	color: #fff;
+	padding: 1rem;
+	background-color: #3f5d79cc;
+	
+}
+.ConteC{
+ box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .9);;
+}
+
+.LigasCont{
+	width: 15rem;
+	height: 10rem;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+	margin: 1rem;
+	
+	margin: auto;
+	margin-left: auto;
+}
+
+
+.Ligas{
+	display: flex;
+	background-color: white;
+	height: 12rem;
+	width: 12rem;
+	transition: .2s;
+	border: black 2rem;
+	border-radius: 2rem;
+	margin: 1rem;
+	box-shadow: 0 0 2rem
+
+}
+.Ligas:hover{
+	transition: .2s;
+	transform: scale(1.1);
+}
+
+
+.Ligas:active{
+	transform: scale(.9);
+}
+
