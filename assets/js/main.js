@@ -22,6 +22,12 @@ $(function(){
         window.location.href = ""+baseUrl+"/Live-Footy/Ligas.html";
     });
 
+    $("#clubs").on("click", function(e) {
+        var baseUrl = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+        window.location.href = ""+baseUrl+"/Live-Footy/Clubs.html";
+    });
+
+
     function loadSchedule(leagueId) {
         var apiUrl = 'https://v3.football.api-sports.io/fixtures?league='+leagueId+'&next=6'
 
