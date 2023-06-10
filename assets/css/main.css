@@ -62,6 +62,7 @@
 .Liga{
 	transition: .5s;
 	background: local;
+	width: 270px;
 }
 .Liga:hover {
 	transform: scale(1.2);
@@ -85,11 +86,9 @@
 	box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, .5);
 	border-radius: 1rem;
 	width: 25rem;
-	height: 28rem;
+	/* height: 28rem; */
 	flex-direction: column;
 	margin: auto;
-	
-
 }
 
 .CabezaT{
@@ -209,4 +208,23 @@ th{
 #Away{
 	text-align: center;
 	margin-left: 2rem;
+}
+
+
+@media (max-width: 300px) {
+	.Logo{
+		display: none;
+	}	
+}
+
+.card-img-top {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+
+.card{
+	border: none;
+	margin-left: 10px;
+	margin-right: 10px;
 }
