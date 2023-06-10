@@ -19,7 +19,7 @@ $(function(){
 
     $("#leagues").on("click", function(e) {
         var baseUrl = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
-        window.location.href = +baseUrl+"/Live-Footy/Ligas.html";
+        window.location.href = ""+baseUrl+"/Live-Footy/Ligas.html";
     });
 
     function loadSchedule(leagueId) {
