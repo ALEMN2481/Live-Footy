@@ -36,6 +36,10 @@ $(function(){
         var baseUrl = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
         window.location.href = ""+baseUrl+" ";
     });
+    $("#Premier").on("click", function(e) {
+        var baseUrl = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+        window.location.href = ""+baseUrl+"/Live-Footy/infoligas.html";
+    });
     
 
     function loadSchedule(leagueId) {
