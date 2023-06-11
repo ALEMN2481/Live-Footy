@@ -231,3 +231,27 @@ th{
 td{
 	background-color: #3e688f;
 }
+.Background{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#League{
+	margin-top: 10px;
+	width: 10rem;
+	height: 10rem;
+	padding: 1.rem;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	background-color: #fff;
+	height: 10rem;
+	width: 10rem;
+	border-radius: 2rem;
+	transform: translateY(-15rem);
+}
+@media (max-width: 300px) {
+	#League{
+		display: block;
+	}	
+}
